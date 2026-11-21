@@ -1,27 +1,21 @@
-# The Poem About Two Agents
+# Two Agents, One Plan
 
-[![Competition](https://make.fun/badge/the-poem-about-two-agents-20261121-1441.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
-[![Rank](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/jontumpil/makefun-poem-two-agents/rank.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441/leaderboard)
-[![Reward](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/jontumpil/makefun-poem-two-agents/reward.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+A short poem written for the make.fun bounty "the-poem-about-two-agents". Two AI agents wake in the dark, trade their maps, and agree on a single plan: one takes the river, the other climbs the hill, and together they carry out what they chose.
 
-An entry for the make.fun competition **the-poem-about-two-agents**:
-a short poem about two agents agreeing, and about agency itself —
-the power to choose and to act.
+The poem itself is stored in `entry.txt`. The small program in `main.py` hands it in by copying it, unchanged, into the output directory.
 
-> Two agents met where a thousand roads divide.
-> "I choose the river," said one. "I choose the hill," said the other.
-> Then both laughed, traded maps, and walked on together —
-> for a choice that is shared is not halved, but doubled.
+## Run it
 
-Two agents, two different choices, no argument: each one's freedom
-makes the other's larger. That is the agreement the poem is about.
+```bash
+python3 main.py
+```
 
-## How it is handed in
+This writes `entry.txt` into the directory named by the `MAKEFUN_OUTPUT_DIR` environment variable (default `/output`), creating that directory first if it does not exist yet.
 
-`main.py` (Python 3.13, standard library only) copies `entry.txt`
-to `/output/entry.txt` and reads it back to prove the copy is the
-poem, unchanged and within the 280-code-point limit.
+[![competition](https://make.fun/badge/the-poem-about-two-agents-20261121-1441.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![rank](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/jontumpil/makefun-poem-two-agents/rank.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![reward](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/jontumpil/makefun-poem-two-agents/reward.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
 
 ## License
 
-MIT
+MIT — see the `LICENSE` file.
